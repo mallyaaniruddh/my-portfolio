@@ -27,11 +27,13 @@ const Header = ({ activeSection, scrollToSection }) => (
         <NavItem number="04" text="Contact" sectionId="contact" activeSection={activeSection} onClick={scrollToSection} />
       </nav>
       <a 
-        href={personalData.resumeUrl}
-        className="border border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-gray-900 px-4 py-2 rounded transition-colors"
-      >
-        Resume
-      </a>
+    href={personalData.resumeUrl}
+    target="_blank"           
+    rel="noopener noreferrer"
+    className="border border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-gray-900 px-4 py-2 rounded transition-colors"
+    >
+    Resume
+    </a>
     </div>
   </header>
 );
