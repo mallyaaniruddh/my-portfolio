@@ -28,4 +28,4 @@ Currently working on cutting-edge research for my MSc thesis: Developing an LLM-
     "User-Centered Design"
   ],
   
-  image:"https://static.toiimg.com/photo/119129076.cms"};
+  image:"profile_pic.jpg"};
